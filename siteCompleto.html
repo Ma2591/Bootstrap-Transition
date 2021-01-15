@@ -24,20 +24,20 @@
           <ul class="navbar-nav mr-auto">
               
              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre o Blog</a>
+                <a class="nav-link" href="#sobre">Sobre o Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Dica de Ouro</a>
+              <a class="nav-link" href="#dica">Dica de Ouro</a>
           </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resenhas</a>
+              <a class="nav-link" href="#resenhas">Resenhas</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Recomendações</a>
+              <a class="nav-link" href="#card">Recomendações</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -45,7 +45,7 @@
             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>
         </div>
-      </nav>
+    </nav>
 
       <!-- Bootstrap Carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -75,37 +75,242 @@
         </a>
       </div>
 
-      <div class="jumbotron">
+      <div id="sobre"class="jumbotron">
         <h1 class="display-4">Sobre o Blog</h1>
-        <p class="lead"> Autor</p>
+        
         <hr class="my-4">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Eveniet aperiam officia magni laudantium exercitationem maiores nesciunt error, eos ratione molestiae maxime doloribus ipsam sed labore dolore? Laborum accusamus magni eligendi?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur saepe dolores autem ratione inventore, quia magnam. Accusamus, omnis quas dolorem consequatur saepe at 
-        labore quam, quae ad nam cum amet!
+        <p>O objetivo deste blog é incentivar a prática da leitura, desde a infância até a fase adulta proporcionando
+          às crianças, adolescentes e adultos a oportunidade de desfrutar das curiosidades e do melhor das obras literárias
+          dos grandes autores do passado e da atualidade.
+          Por aqui teremos dicas de leitura, recomendações de obras aclamadas pela crítica literária, vídeos e muito mais, fique ligado!
         </p>
-    </div>
+      </div>
 
-    <!-- Proporção 16:9 -->
-    <h3 class="display-4">Dica de Ouro</h3>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eTLlzBIHOQU" 
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen></iframe>></iframe>
-    </div>
-    <hr>
-    <!-- Card -->
-    <h3 class="display-4">Recomendações</h3>
-    <div class="card" style="width: 12rem;">
+      <!-- Texto e foto -->
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-md-7">
+            <div class="bg-light">
+             
+              <p class="lead"> Autora</p>
+                <hr class="my-4">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem animi cumque vel molestiae veniam 
+                  reiciendis suscipit aliquam maxime inventore esse ab ea odio corrupti illo facere, eveniet cupiditate eligendi quos.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem animi cumque vel molestiae veniam 
+                  reiciendis suscipit aliquam maxime inventore esse ab ea odio corrupti illo facere, eveniet cupiditate eligendi quos.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem animi cumque vel molestiae veniam 
+                  reiciendis suscipit aliquam maxime inventore esse ab ea odio corrupti illo facere, eveniet cupiditate eligendi quos.
+                </p>
+
+                
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-light">
+              <div class="container-justify">
+
+                <div>
+                    <img class="br-50 wh-300 p-30"  src="https://conteudo.imguol.com.br/c/entretenimento/5f/2019/09/11/fatima-bernardes-1568214147938_v2_450x337.png" alt="foto Autora">
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="container">
+          
+        </div>
+
+        
+      </div>
+
+    <!-- Vídeo -->
+    <div id="dica" class="container">
+      <div class="col-md-4">
+        <h3 class="display-4 mt-5">Dica de Ouro</h3>
+      </div>
       
-      <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Aristóteles Image">
-      <div class="card-body">
-        <h5 class="card-title">Coleção Aristotélica</h5>
-        <p class="card-text">Confira os livros mais interessantes de Aristóteles, segundo a crítica contemporânea.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+    <div class="col-md-12"></div>
+      <div class="col-md-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eTLlzBIHOQU" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>></iframe>
+        </div>
       </div>
     </div>
     
+    
+    <!-- Resenhas Cards -->
+    <div id="resenhas" class="container mt-5">
+      <h3 class="display-4">Resenhas</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles">
+          <div class="card-body">
+            <h5 class="card-title">Resenha Livro "Ética à Nicômaco"</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias consequuntur sapiente dignissimos blanditiis. Aliquid, debitis quaerat impedit cupiditate quibusdam vel aperiam ex ut unde expedita nostrum repellendus magnam temporibus non.</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Resenha Livro "A República de Platão"</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic, exercitationem dolor totam odit voluptas beatae quidem delectus eveniet ratione itaque facilis quae quas in minus aliquid incidunt fugiat sapiente!</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Resenha Livro "Guerra e Paz"</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic, exercitationem dolor totam odit voluptas beatae quidem delectus eveniet ratione itaque facilis quae quas in minus aliquid incidunt fugiat sapiente!</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Resenha Livro "Uma Confissão"</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic, exercitationem dolor totam odit voluptas beatae quidem delectus eveniet ratione itaque facilis quae quas in minus aliquid incidunt fugiat sapiente!</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+        
+       
+
+    <!-- Recomendações Cards -->
+    <div id="card" class="container mt-5">
+      <h3 class="display-4">Recomendações</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles">
+          <div class="card-body">
+            <h5 class="card-title">Coleção Aristotélica</h5>
+            <p class="card-text">Confira os melhores livros de Aristóteles, segundo a crítica contemporânea.</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Coleção Platônica</h5>
+            <p class="card-text">Confira os melhores livros de Platão, segundo a crítica contemporânea.</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/bust-of-aristotle-greek-philosopher-and-scientist-greek-school.jpg" alt="Imagem card Aristóteles" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Coleção Jean-Jaques Rosseau</h5>
+            <p class="card-text">Confira os melhores livros de Jean-Jaques Rosseau, segundo a crítica contemporânea.</p>
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Labels feito com linhas e colunas -->
+    <div id="contato"class="container mt-5">
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="text-center display-4">
+                  Contato
+              </h2>
+          </div>
+      </div>
+            
+      <div class="row">
+          <div class="col-md-12">
+              <form>
+  
+                  <div class="form-group">
+                      <label for="exampleFormControlName1">Nome</label>
+                      <input type="nome" class="form-control" id="exampleFormControlName1"
+                          placeholder="Digite seu nome">
+                          
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">E-mail</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1"
+                          placeholder="nome@exemplo.com">
+             
+            
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Deixe sua mensagem:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      
+                  </div>
+  
+                  <div class="form-group d-flex justify-content-end">
+                      
+                      <button class=" btn btn-primary">Enviar</button>
+                  </div>
+              </form>
+  
+          </div>
+            
+      </div>
+
+      <div class="row mt-5 d-flex">
+
+        <div class="col-md-6 ">
+          <h4 class="display-6" >
+            Endereço:
+          </h4>
+          <p>Av. 23 de Maio, 500 </p>
+          <p>Vila Mariana</p>
+          <p>São Paulo/SP</p>
+        </div> 
+
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6645878809272!2d-46.65138308502174!3d-23.580486984673385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5992ed3edcdf%3A0xfb6339c3502d9d14!2sAv.%2023%20de%20Maio%2C%20500%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1610391064102!5m2!1spt-BR!2sbr" 
+          width="450" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>
+        </div>  
+         
+      </div>
+  </div>
+     
+  
+  <div class="container mt-5">
+    <hr>
+    <footer>
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+  
+            <a href="https://www.facebook.com/" class="p-3">
+                <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.linkedin.com/" class="p-3">
+                <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+            <a href="https://www.instagram.com/" class="p-3">
+                <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+  
+  
+  
+        </div>
+    </div>
+
+    
+  
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">
+                Todos os direitos reservados: Mariana Oliveira &copy
+            </p>
+  
+        </div>
+    </div>
+
+  </footer>
+    
+  
+  
+     
+  
     
         
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
